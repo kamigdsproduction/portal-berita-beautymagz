@@ -41,7 +41,10 @@ collections:
           - label: "GitHub account"
             name: "github_account"
             widget: "string"
-
+          - label: "Deskripsi Penelusuran (SEO)"
+            name: "description"
+            widget: "string"
+            pattern: ['.{1,140}' "Maksimal 140 karakter untuk SEO E-E-A-T"
   - name: "meta"
     label: "Meta"
     delete: false
